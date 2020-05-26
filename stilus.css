@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  font-family: inherit;
+  background-color: #eee2dc;
+}
+
+/* The heading*/
+.heading {
+  font-family: "DM Serif Text";
+  background-color: #eee2dc;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-style: italic;
+  font-size: large;
+}
+a {
+  padding: 1em;
+  text-decoration: none;
+  font-family: "DM Serif Text";
+  background-color: #edc7b7;
+  color: #ac3b61;
+  flex-grow: 1;
+}
+/*The navbar*/
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* The main content*/
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+}
+
+p {
+  font-family: "Meddon";
+  font-size: x-large;
+  white-space: wrap;
+  text-indent: 150px;
+  line-height: 2.5em;
+}
+.box > img {
+  width: 70%;
+}
+.box {
+  padding: 10px;
+}
+
+/*The about page*/
+.historia {
+  font-family: "DM Sans", sans-serif;
+  text-align: justify;
+  font-size: large;
+  padding: 1.5em;
+}
+
+.cim {
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+}
+
+/* The event page*/
+.video {
+  width: auto;
+  height: auto;
+}
+
+/* The contact page*/
+
+#contact {
+  padding: 1.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+tr td {
+  width: 50%;
+  border-bottom: 2px solid #ac3b61;
+  text-align: center;
+  height: 50px;
+  vertical-align: middle;
+}
